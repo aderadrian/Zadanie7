@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Zadanie7</string>
+    <string-array name="telefony">
+        <item>Samsung Galaxy S6</item>
+        <item>Samsung Galaxy S7</item>
+        <item>Samsung Galaxy S8</item>
+    </string-array>
+</resources>

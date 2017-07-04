@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#817362"
+    tools:context="com.example.adrianreda.zadanie7.gals8">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:text="Samsung Galaxy S8"
+            android:textSize="28dp"/>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/obrazek3"
+            android:layout_below="@+id/textView1"
+            android:tag="Samsung_s6"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Dane techniczne"
+            android:layout_marginLeft="30px"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50px"
+            android:text="* Procesor: Exynos 8895, 2.30 GHz, 8 rdzeni"
+            android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50px"
+            android:text="* Pamięć RAM: 4 GB"
+            android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50px"
+            android:text="* Pamięć wbudowana: 64 GB"
+            android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50px"
+            android:text="* Aparat fotograficzy tył: 12 Mpx,Rozdzielczosc 4032x3024 px"
+            android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50px"
+            android:text="* Aparat fotograficzy przod: 8 Mpx,Rozdzielczosc 3264x2448 px"
+            android:textSize="16dp"/>
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:onClick="Cena"
+            android:text="Cena"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:onClick="Powrot"
+            android:text="Powrót"
+            android:layout_alignParentBottom="true"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
